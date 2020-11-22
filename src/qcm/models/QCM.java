@@ -8,9 +8,9 @@ public class QCM {
 		Scanner in=new Scanner(System.in);
 		String s=in.nextLine();
 		if(question.estValide(s)) {
-			System.out.println("Réponse valide");
+			System.out.println("RÃ©ponse valide");
 		}else {
-			System.out.println("Réponse fausse");
+			System.out.println("RÃ©ponse fausse");
 		}
 	}
 }
