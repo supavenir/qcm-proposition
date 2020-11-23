@@ -4,6 +4,10 @@ public abstract class Question {
 	private String intitule;
 	
 	
+	public double evaluer(EvaluationInterface evaluation) {
+		return evaluation.evaluer(this);
+	}
+	
 	public Question(String intitule) {
 		this.intitule=intitule;
 	}
